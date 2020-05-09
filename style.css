@@ -1,5 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#nav-bar {
+    background-color: rgb(82, 116, 160);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-content-container{
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+
+}
+
+
+#facebook-header {
+    color: white;
+    font-size: 40px;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+#login-form {
+    display: flex;
+    color: white;
+    align-self: center;
+}
+
+#login-button {
+    height: 35px;
+    width: 45px;
+    background-color: rgb(117, 154, 202);
+    border: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-self: center;
 }
