@@ -62,3 +62,152 @@
     align-self: center;
 
 }
+
+
+#main-container-below-nav {
+    background-color: #e0e4ef;
+    display: flex;
+    justify-content: center;
+    height: 94vh;
+}
+
+#main-container-content-holder {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+#container-left-side {
+    color: #0e385f;
+    margin-top: 20px;
+}
+
+#container-right-side {
+    display: flex;
+    flex-direction: column;
+    /*height: 300px;*/
+
+}
+
+
+#container-right-side h2 {
+    color: black;
+    font-weight: 900;
+    font-size: 33px;
+    font-style: bold;
+}
+
+#container-right-side p {
+    color: #2a303b;
+
+}
+
+.sign-in-input {
+    height: 37px;
+    width: 200px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+    border: gray 1px solid;
+    margin-bottom: 20px;
+
+
+}
+
+.long-sign-in {
+    width: 405px;
+}
+
+select {
+    height: 35px;
+    width: 85px;
+    background-color: white;
+}
+
+
+
+#form-input-date label {
+    display: block;
+    color: #90949c;
+    font-weight: bolder;
+}
+
+
+#gender-label {
+    display: block;
+    color: #90949c;
+    font-weight: bolder;
+}
+
+#form-input-gender input {
+    margin: 10px;
+
+}
+
+.gender-type-label {
+    color: #1d2129;
+    font-size: 20px;
+}
+
+#policy-parg {
+    font-size: 12px;
+}
+
+#sign-up-button {
+    width: 250px;
+    font-size: 18px;
+    background: linear-gradient(#80cc6d, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#create-page {
+    margin-top: 10px;
+}
+
+
+#footer{
+    display: flex;
+    width: 960px;
+    margin-top: 35px;
+    flex-direction: column;
+}
+
+.nav-footer-lang{
+
+}
+
+.nav-list{
+    display: flex;
+    margin-left: 180px;
+}
+.nav-list li {
+    list-style: none;
+    padding: 5px;
+    font-size: 13px;
+  
+}
+
+.nav-list a{
+text-decoration: none;
+color: #385898;
+}
+
+hr{
+    margin-left: 180px;
+}
+
+.copy-right{
+    color: #737373;
+}
+.copy-right p{
+    margin-left: 180px;
+}
