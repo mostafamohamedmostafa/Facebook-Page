@@ -7,7 +7,7 @@
 
 #nav-bar {
     background-color: #3b5998;
-    height: 15vh;
+    height: 13vh;
     display: flex;
     justify-content: center;
 
@@ -25,7 +25,7 @@
 
 #facebook-header {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     align-self: flex-end;
     font-weight: bold;
 }
@@ -45,7 +45,9 @@
     margin: 3px 12px 3px 0;
 }
 
-.login-p {}
+.login-p {
+    font-size: small;
+}
 
 #forget-password {
     color: lightgray;
@@ -68,7 +70,7 @@
     background-color: #e0e4ef;
     display: flex;
     justify-content: center;
-    height: 94vh;
+    height: 99vh;
 }
 
 #main-container-content-holder {
